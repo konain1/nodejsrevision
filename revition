@@ -1,0 +1,5 @@
+const {readFileSync} = require('fs')
+
+
+let alchemist = readFileSync('books.txt','utf-8')
+console.log(alchemist)
